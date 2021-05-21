@@ -7,7 +7,6 @@ export function getUsers() {
     dispatch({type: Types.GET_USERS_REQUEST});
     RestClient.getCall('/users?page=2')
       .then(json => {
-        console.log('mera json data---',json);
         dispatch({type: Types.GET_USERS_SUCCESS});
       })
       .catch(err => {

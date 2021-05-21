@@ -9,7 +9,6 @@ import {manageComponentStats} from '../../actions/componentStats';
 import withLoadingScreen from './../../hoc/withLoadingScreen';
 import Dashboard from '../../components/Dashboard';
 
-//const Dashboard = lazy(() => import('../../components/Dashboard'));
 
 class DashBoard extends Component {
   constructor(props) {

@@ -7,9 +7,6 @@ import DashBoard from '../../containers/DashBoard';
 import {manageTabNavigation} from './tabConfig';
 import {manageDrawerNavigation} from './drawerConfig'
 
-//const SignIn = lazy(() => import('../../containers/Auth/SignIn'));
-//const Register = lazy(() => import('../../containers/Auth/Register'));
-//const DashBoard = lazy(() => import('../../containers/DashBoard'));
 
 const Stack = createStackNavigator();
 

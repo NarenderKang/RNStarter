@@ -28,8 +28,7 @@ class RestClient {
 
   static getCall(url, token) {
     console.log(url, token, 'API=>>>>>>>>url');
-   // api.setHeader('Authorization', token);
-  // api.setHeader('Authorization', 'test');
+    api.setHeader('Authorization', token);
     let context = this;
     return new Promise(function(fulfill, reject) {
       context

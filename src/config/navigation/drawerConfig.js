@@ -10,7 +10,6 @@ export function manageDrawerNavigation() {
   return (
     <Drawer.Navigator initialRouteName="Tab">
     <Drawer.Screen name="Tab" component={manageTabNavigation} />
-    {/* <Drawer.Screen name="Settings" component={Settings} /> */}
   </Drawer.Navigator>
 
    )}

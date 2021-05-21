@@ -10,7 +10,7 @@ import {connect} from 'react-redux';
 import {bindActionCreators, compose} from 'redux';
 import {goHome} from '../../../config/navigation';
 
-//const SignInComponent = lazy(() => import('../../../components/Auth/SignIn'));
+
 
 class SignIn extends Component {
   
